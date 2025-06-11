@@ -4,4 +4,4 @@ services:
     env: python
     plan: free
     buildCommand: ""
-    startCommand: gunicorn bot_webhook:app
+    startCommand: gunicorn bot_webhook_py_v2:app
